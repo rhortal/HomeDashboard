@@ -1,3 +1,7 @@
+# HomeDashboard - my home's dashboard
+
+This is an application to show my home automation dashboard, based on:
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
