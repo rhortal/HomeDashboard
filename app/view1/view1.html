@@ -1,6 +1,14 @@
 <div ng-repeat="camera in cameras">
-    <div class="item">
-        <img ng-click="toggleVideo($event, camera.image, camera.video)" ng-src="{{ camera.image }}" class="camera-image">
-        <div>{{camera.name}}</div>
-    </div>
-</div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <p class="h2"><span class="glyphicon glyphicon-camera"></span> {{camera.name}}</p>
+            <div class="text-right">
+                <toggle-switch ng-model="switchStatus">
+                    <toggle-switch>
+            </div>
+        </div>
+        <div class="panel-body">
+            <img ng-click="toggleVideo($event, camera.image, camera.video)" ng-src="{{ camera.image }}" class="img-responsive center-block camera-image">
+            <div>
+            </div>
+        </div>
